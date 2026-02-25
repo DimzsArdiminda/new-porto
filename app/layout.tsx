@@ -5,6 +5,7 @@ import Head from "../components/Head";
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ClientScripts from "@/components/ClientScripts";
 
 export const metadata: Metadata = {
   title: "Portfolio - Tech Enthusiast",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body>
         <div className="cursor-glow" id="cursorGlow"></div>
         <Header />
+        <ClientScripts />
         {children}
         <Footer />
         <Script src="/scripts.js" strategy="afterInteractive" />
