@@ -1,7 +1,6 @@
-import CardFitur from "../CardFitur";
 
 
-export default function Mobile() {
+export default function MLAI() {
 return (
 <div>
 <div className="projects-grid">

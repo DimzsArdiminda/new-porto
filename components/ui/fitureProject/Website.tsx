@@ -90,10 +90,8 @@ export default function Website() {
         />
       </div>
       <div className="w-full size-8 text-end mt-10">
-        <a href="/website" className="text-end ">
-          <h1>
-            More
-          </h1>
+        <a href="/website" className="more-link">
+          More
         </a>
       </div>
     </div>
