@@ -5,7 +5,7 @@ interface CardFiturProps {
   title: string;
   description: string;
   tags?: string[];
-  type: "website" | "mobile" | "iot";
+  type: "website" | "mobile" | "iot" | "mlai";
   UrlApps?: string;
 }
 
