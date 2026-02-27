@@ -10,12 +10,20 @@ export default function Footer() {
         </p>
         <div className="contact-links">
           <a
+            href="https://wa.me/6285176963543"
+            className="contact-link"
+            target="_blank"
+            title="Whatsapp"
+          >
+            <span></span>
+          </a>
+          <a
             href="https://github.com/DimzsArdiminda"
             className="contact-link"
             target="_blank"
             title="GitHub"
           >
-            <span>⚡</span>
+            <span></span>
           </a>
           <a
             href="https://linkedin.com/in/dimas-ardiminda-edia-putra/"
@@ -23,14 +31,16 @@ export default function Footer() {
             target="_blank"
             title="LinkedIn"
           >
-            <span>💼</span>
+            <span></span>
           </a>
           <a
             href="mailto:dimasardiminda@email.com"
             className="contact-link"
             title="Email"
           >
-            <span>📧</span>
+            <span>
+              icon
+            </span>
           </a>
           <a
             href="https://Instagram.com/divoidsam"
