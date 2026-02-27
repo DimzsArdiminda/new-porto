@@ -1,3 +1,4 @@
+import Link from "next/link";
 import CardFitur from "../CardFitur";
 
 export default function Website() {
@@ -90,9 +91,9 @@ export default function Website() {
         />
       </div>
       <div className="w-full size-8 text-end mt-10">
-        <a href="/website" className="more-link">
+        <Link href="/more/website" className="more-link">
           More
-        </a>
+        </Link>
       </div>
     </div>
   );

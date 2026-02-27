@@ -1,6 +1,7 @@
 import React from "react";
 import CardAchievement from "./ui/CardAchievement";
 import { mixedData } from "@/lib/AchivmentSertif";
+import Link from "next/link";
 
 
 export default function Tech() {
@@ -21,9 +22,9 @@ export default function Tech() {
         ))}
       </div>
       <div className="w-full size-8 text-end mt-10">
-        <a href="/achiev-certif" className="more-link">
+        <Link href="/more/achiev-certif" className="more-link">
           More
-        </a>
+        </Link>
       </div>
     </section>
   );
