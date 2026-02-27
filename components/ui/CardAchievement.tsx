@@ -28,15 +28,15 @@ export default function CardAchievement({
       </div>
       <div className="achievement-body">
         <div className="achievement-provider">
-          <span className="label">Provider&nbsp;:</span>
+          <span className="label">Organizer&nbsp;:</span>
           <span className="value">{provider}</span>
         </div>
         <div className="achievement-time">
-          <span className="label">Time &nbsp;&nbsp;&nbsp;&nbsp;:</span>
+          <span className="label">Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span>
           <span className="value">{time}</span>
         </div>
         <div className="achievement-type">
-          <span className="label">Type &nbsp;&nbsp;&nbsp;&nbsp;:</span>
+          <span className="label">Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</span>
           <span className="value">{type}</span>
         </div>
         {credential && (

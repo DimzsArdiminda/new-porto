@@ -64,20 +64,21 @@ export const DataPortoDisplay: PortoProps[] = [
   },
   {
     type: "website",
+    url: "/foto/curio.png",
+    title: "CURIO - Sistem Cek Kurasi Terpersonalisasi",
+    description:
+      "CURIO adalah sebuah website yang dirancang untuk memberikan layanan cek kurasi terpersonalisasi kepada pengguna. Website ini menggunakan teknologi kecerdasan buatan untuk menganalisis preferensi dan kebutuhan pengguna, serta memberikan rekomendasi kurasi yang sesuai dengan minat dan tujuan mereka. Dengan fitur-fitur inovatif seperti analisis perilaku pengguna, rekomendasi konten yang disesuaikan, dan antarmuka yang user-friendly, CURIO bertujuan untuk meningkatkan pengalaman pengguna dalam menemukan konten yang relevan dan bermanfaat sesuai dengan minat mereka.",
+    tags: ["LARAVEL", "BOOTSTRAP", "MYSQL"],
+    UrlApps: "https://mycurio.id/",
+  },
+  {
+    type: "website",
     url: "/foto/etno.png",
     title:
       "SIPRO - Inovasi Media Pembelajaran Digital pada Materi Kombinatorika",
     description:
       "SIPRO adalah sebuah website yang dirancang untuk memberikan media pembelajaran digital yang inovatif pada materi kombinatorika. Website ini menyediakan berbagai fitur interaktif seperti  latihan soal dengan AI , Penjelasan materi dengan personalisasi 3 kepribadian (VIRTUAL, KINESTETIK dan AUDIOTORY), dan penjelasan mendalam untuk membantu siswa memahami materi kombinatorika dengan lebih baik. Dengan pendekatan yang menarik dan mudah dipahami, SIPRO bertujuan untuk meningkatkan pemahaman siswa terhadap konsep kombinatorika dan memfasilitasi proses pembelajaran yang lebih efektif.",
     tags: ["Laravel", "MySql", "TAILWIND"],
-  },
-  {
-    type: "website",
-    url: "/foto/Siepam.png",
-    title: "Siepam - Sistem Informasi Ahmad Masfi",
-    description:
-      "Siepam adalah sebuah website yang dirancang untuk mengelola informasi terkait Pembelajaran, baik dari sisi mahasiswa dan dosen. Website ini menyediakan fitur seperti Tugas dan Penyesuaian CPL, CPMK dan Sub CPMK untuk memfasilitasi proses pembelajaran yang lebih terstruktur dan interaktif.",
-    tags: ["Laravel", "MySql", "Bootstrap"],
   },
   {
     type: "website",
@@ -115,6 +116,14 @@ export const DataPorto: PortoProps[] = [
     title: "Teman Cemas - Website untuk Kesehatan Mental",
     description:
       "Teman Cemas adalah website yang dirancang untuk memberikan dukungan dan sumber daya bagi individu yang mengalami kecemasan. Website ini menyediakan artikel informatif, pengecekan Anxiety menggunakan teknik DASS42, Tracking Habits, Tempat Cerita, dan Unkown Text.",
+    tags: ["Laravel", "MySql", "Bootstrap"],
+  },
+  {
+    type: "website",
+    url: "/foto/Siepam.png",
+    title: "Siepam - Sistem Informasi Ahmad Masfi",
+    description:
+      "Siepam adalah sebuah website yang dirancang untuk mengelola informasi terkait Pembelajaran, baik dari sisi mahasiswa dan dosen. Website ini menyediakan fitur seperti Tugas dan Penyesuaian CPL, CPMK dan Sub CPMK untuk memfasilitasi proses pembelajaran yang lebih terstruktur dan interaktif.",
     tags: ["Laravel", "MySql", "Bootstrap"],
   },
   {
