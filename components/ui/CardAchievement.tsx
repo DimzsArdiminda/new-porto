@@ -1,22 +1,22 @@
 import React from "react";
 
-interface CardAchivmentProps {
+interface CardAchievementProps {
   titleCompletion: string;
   provider: string;
   time: string;
   role?: string;
   credential?: string;
-  type?: "certification" | "achievement";
+  type?: string;
 }
 
-export default function CardAchivment({
+export default function CardAchievement({
   titleCompletion,
   provider,
   time,
   role,
   type,
   credential,
-}: CardAchivmentProps) {
+}: CardAchievementProps) {
   return (
     <div className="achievement-card fade-in">
       <div className="achievement-header">

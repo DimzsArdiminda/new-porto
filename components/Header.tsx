@@ -1,30 +1,9 @@
+import { linkContent } from '@/lib/Header';
 import Link from 'next/link';
 import { title } from 'process';
 import React from 'react'
 
 export default function Header() {
-    const linkContent = [
-        {
-            title: 'Home',
-            href: '#hero'
-        },
-        {
-            title: 'About',
-            href : '#about'
-        },
-        {
-            title: 'Skills',
-            href : '#skills'
-        },
-        {
-            title: 'Projects',
-            href : '#projects'  
-        },
-        {
-            title: 'Contact',
-            href : '#contact'
-        }
-    ]
     return (
         <header>
         <div className="logo">&lt;/ARDIMINDA&gt;</div>
