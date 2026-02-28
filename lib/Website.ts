@@ -53,14 +53,22 @@ export const DataPortoDisplay: PortoProps[] = [
     tags: ["LARAVEL", "MYSQL", "BOOTSTRAP"],
     UrlApps: "https://sinusi-nu.com/",
   },
+  // {
+  //   type: "website",
+  //   url: "/foto/web/zada.png",
+  //   title: "Apotek Zada (Bug Fixing)",
+  //   description:
+  //     "Apotek Zada adalah sebuah website e-commerce yang dirancang untuk memfasilitasi management obat obatan di Apotek Zada. Website ini menyediakan fitur seperti manajemen produk, manajemen pesanan, dan lain sebagaianya. Pada portfolio ini saya menampilkan hasil bug fixing untuk website tersebut, dengan fokus pada perbaikan masalah yang terkait dengan performa, keamanan, dan pengalaman pengguna untuk memastikan bahwa website berjalan dengan lancar dan memberikan layanan yang optimal kepada pelanggan.",
+  //   tags: ["VUE", "LARAVEL LUMEN", "DOCKER", "MYSQL"],
+  //   UrlApps: "https://apotek-zada.com/",
+  // },
   {
     type: "website",
-    url: "/foto/web/zada.png",
-    title: "Apotek Zada (Bug Fixing)",
-    description:
-      "Apotek Zada adalah sebuah website e-commerce yang dirancang untuk memfasilitasi management obat obatan di Apotek Zada. Website ini menyediakan fitur seperti manajemen produk, manajemen pesanan, dan lain sebagaianya. Pada portfolio ini saya menampilkan hasil bug fixing untuk website tersebut, dengan fokus pada perbaikan masalah yang terkait dengan performa, keamanan, dan pengalaman pengguna untuk memastikan bahwa website berjalan dengan lancar dan memberikan layanan yang optimal kepada pelanggan.",
-    tags: ["VUE", "LARAVEL LUMEN", "DOCKER", "MYSQL"],
-    UrlApps: "https://apotek-zada.com/",
+    url: "/foto/web/zeatis.png",
+    title: "Zeatis - Landing Page ",
+    description: " Zeatis adalah sebuah website yang dirancang untuk menampilkan landing Program PKM Zeatis UM. Website ini bertujuan untuk memberikan informasi tentang Produk, manfaat, dan keunggulan Zeatis kepada Consumer. Dengan desain yang menarik dan informatif, landing page ini diharapkan dapat meningkatkan minat pengguna potensial untuk produk Zeatis.",
+    tags: ["HTML", "CSS", "JS"],
+    UrlApps: "https://zeatis-um.vercel.app/",
   },
   {
     type: "website",
@@ -160,4 +168,4 @@ export const DataPorto: PortoProps[] = [
   },
 ];
 
-console.log(DataPorto.length);
+// console.log(DataPorto.length);
