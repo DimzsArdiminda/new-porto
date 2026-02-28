@@ -218,14 +218,14 @@ nav a:hover::after {
 
 .social-buttons {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   width: 100%;
-  max-width: 300px;
+  max-width: 600px;
 }
 
 .social-btn {
-  padding: 0.8rem 1.5rem;
+  padding: 1rem;
   background: transparent;
   border: 2px solid var(--border-color);
   color: var(--text-primary);
@@ -238,6 +238,9 @@ nav a:hover::after {
   position: relative;
   overflow: hidden;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-btn::before {
@@ -711,7 +714,8 @@ nav a:hover::after {
 }
 
 .achievement-provider,
-.achievement-time, .achievement-type {
+.achievement-time,
+.achievement-type {
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -719,7 +723,8 @@ nav a:hover::after {
 }
 
 .achievement-provider .label,
-.achievement-time .label, .achievement-type .label {
+.achievement-time .label,
+.achievement-type .label {
   font-family: "IBM Plex Mono", monospace;
   color: var(--text-secondary);
   font-size: 0.85rem;
@@ -729,7 +734,8 @@ nav a:hover::after {
 }
 
 .achievement-provider .value,
-.achievement-time .value, .achievement-type .value {
+.achievement-time .value,
+.achievement-type .value {
   color: var(--text-primary);
   font-size: 0.95rem;
 }

@@ -1,4 +1,11 @@
 import React from 'react'
+import {
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+  FaInstagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -10,45 +17,43 @@ export default function Footer() {
         </p>
         <div className="contact-links">
           <a
-            href="https://wa.me/6285176963543"
-            className="contact-link"
-            target="_blank"
-            title="Whatsapp"
-          >
-            <span></span>
-          </a>
-          <a
             href="https://github.com/DimzsArdiminda"
-            className="contact-link"
+            className="social-btn"
             target="_blank"
             title="GitHub"
           >
-            <span></span>
+            <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/dimas-ardiminda-edia-putra/"
-            className="contact-link"
+            href="https://www.linkedin.com/in/dimas-ardiminda-edia-putra/"
+            className="social-btn"
             target="_blank"
             title="LinkedIn"
           >
-            <span></span>
+            <FaLinkedin size={24} />
           </a>
           <a
-            href="mailto:dimasardiminda@email.com"
-            className="contact-link"
-            title="Email"
+            href="https://wa.me/6285176963543"
+            className="social-btn"
+            target="_blank"
+            title="WhatsApp"
           >
-            <span>
-              icon
-            </span>
+            <FaWhatsapp size={24} />
           </a>
           <a
-            href="https://Instagram.com/divoidsam"
-            className="contact-link"
+            href="https://instagram.com/divoidsam"
+            className="social-btn"
             target="_blank"
             title="Instagram"
           >
-            <span>📷</span>
+            <FaInstagram size={24} />
+          </a>
+          <a
+            href="mailto:dimasardiminda@email.com"
+            className="social-btn"
+            title="Email"
+          >
+            <FaEnvelope size={24} />
           </a>
         </div>
       </section>

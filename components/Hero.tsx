@@ -1,5 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+  FaInstagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -40,25 +47,40 @@ export default function Hero() {
               href="https://github.com/DimzsArdiminda"
               className="social-btn"
               target="_blank"
+              title="GitHub"
             >
-              <span>GitHub</span>
+              <FaGithub size={24} />
             </a>
             <a
               href="https://www.linkedin.com/in/dimas-ardiminda-edia-putra/"
               className="social-btn"
               target="_blank"
+              title="LinkedIn"
             >
-              <span>LinkedIn</span>
+              <FaLinkedin size={24} />
+            </a>
+            <a
+              href="https://wa.me/6285176963543"
+              className="social-btn"
+              target="_blank"
+              title="WhatsApp"
+            >
+              <FaWhatsapp size={24} />
             </a>
             <a
               href="https://instagram.com/divoidsam"
               className="social-btn"
               target="_blank"
+              title="Instagram"
             >
-              <span>Instagram</span>
+              <FaInstagram size={24} />
             </a>
-            <a href="mailto:dimasardiminda@email.com" className="social-btn">
-              <span>Email</span>
+            <a
+              href="mailto:dimasardiminda@email.com"
+              className="social-btn"
+              title="Email"
+            >
+              <FaEnvelope size={24} />
             </a>
           </div>
         </div>
